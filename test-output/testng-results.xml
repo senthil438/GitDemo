@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="20641" started-at="2022-01-03T14:19:48Z" finished-at="2022-01-03T14:20:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="20641" started-at="2022-01-03T14:19:48Z" finished-at="2022-01-03T14:20:09Z">
+      <class name="org.google.tests.TC001">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:org.google.tests.TC001@2145b572]" name="openApp" is-config="true" duration-ms="5378" started-at="2022-01-03T14:19:50Z" finished-at="2022-01-03T14:19:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="GoogleSearchTest([Ljava.lang.String;)[pri:0, instance:org.google.tests.TC001@2145b572]" name="GoogleSearchTest" duration-ms="3296" started-at="2022-01-03T14:19:55Z" data-provider="searchData" finished-at="2022-01-03T14:19:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@2db2cd5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearchTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.google.tests.TC001@2145b572]" name="closeApp" is-config="true" duration-ms="783" started-at="2022-01-03T14:19:58Z" finished-at="2022-01-03T14:19:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+        <test-method status="PASS" signature="openApp()[pri:0, instance:org.google.tests.TC001@2145b572]" name="openApp" is-config="true" duration-ms="6295" started-at="2022-01-03T14:19:59Z" finished-at="2022-01-03T14:20:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="GoogleSearchTest([Ljava.lang.String;)[pri:0, instance:org.google.tests.TC001@2145b572]" name="GoogleSearchTest" duration-ms="3016" started-at="2022-01-03T14:20:05Z" data-provider="searchData" finished-at="2022-01-03T14:20:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@70e659aa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GoogleSearchTest -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:org.google.tests.TC001@2145b572]" name="closeApp" is-config="true" duration-ms="849" started-at="2022-01-03T14:20:08Z" finished-at="2022-01-03T14:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- org.google.tests.TC001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
